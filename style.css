@@ -1,0 +1,218 @@
+.hero-description form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hero-description form span {
+    display: none;
+}
+
+.btn-assinar{
+    padding: 0.7rem 1.4rem;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fcfcfc;
+    background-color: #E50914;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-assinar:hover, #login-button:hover{
+    background-color: rgb(154, 22, 22);
+    transition: .2s;
+}
+
+.logo {
+    width: 150px;
+}
+
+#email {
+    padding:  1rem 6rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+#label-email {
+    position: absolute;
+    z-index: 1;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-image: linear-gradient(rgba(8, 8, 8, 0.8), rgba(37, 37, 37, 0.9)), url("images/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    height: 80vh;
+}
+
+section{
+    border-bottom: 8px solid rgb(72, 72, 72);
+}
+
+header > nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid-container {
+    padding: 1rem 20rem;
+}
+
+.hero-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+
+.hero-description h1 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.hero-description h3 {
+    margin: 1rem 0 1.5rem;
+}
+
+.hero-description p {
+    margin-bottom: 1rem;
+    font-size: 18px;
+}
+
+.logo {
+    width: 150px;
+}
+
+#select-idioma {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.321);
+    padding: 8px 28px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    margin-right: 1rem;
+}
+
+#login-button {
+    text-decoration: none;
+    background-color: #E50914;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#email {
+  
+    
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.456);
+    border-radius: 5px;
+}
+
+
+#label-email {
+    position: absolute;
+    z-index: 1;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 14px;
+    color: gray;
+}
+
+.beneficios-content {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 4rem;
+    border-bottom: 8px solid black;
+}
+
+.beneficios-content div h2 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.beneficios-content div p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.preview-video {
+    position: absolute;
+    top: 110px;
+    left: 53.3%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.preview-video_2 {
+    position: absolute;
+    top: 70px;
+    left: 25%;
+    overflow: hidden;
+    z-index: -1;
+    width: 22rem;
+}
+
+figure{
+    position: relative;
+}
+#card-device{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 2px solid rgb(72, 72, 72);
+    width: 60%;
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    background-color: black;
+
+}
+
+#card-device div p {
+    font-size: 14px;
+    color: #0071eb;
+    margin-top: 0px;
+}
+
+#card-device img {
+    width: 80px;
+    margin-right: 1rem;
+
+}
+
+
